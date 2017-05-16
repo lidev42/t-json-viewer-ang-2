@@ -1,38 +1,101 @@
 {
-  "name": "t-json-viewer",
-  "version": "1.0.3",
-  "license": "MIT",
-  "description": "Angular 2 component for objects debug (Collapsible JSON in HTML like in Chrome DevTools)",
-  "main": "index.ts",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "lint": "tslint \"src/**/*.ts\"",
-    "test": "ng test"
-  },
-  "keywords": [
-    "angular2",
-    "@angular",
-    "json"
+  "_args": [
+    [
+      {
+        "raw": "t-json-viewer@1.0.3",
+        "scope": null,
+        "escapedName": "t-json-viewer",
+        "name": "t-json-viewer",
+        "rawSpec": "1.0.3",
+        "spec": "1.0.3",
+        "type": "version"
+      },
+      "/Users/aleccrestani/git/imging-admin-web-frontend"
+    ]
   ],
-  "author": "Artem Koziar [temich] <a@temich.in.ua>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/temich666/t-json-viewer.git"
+  "_from": "t-json-viewer@1.0.3",
+  "_id": "t-json-viewer@1.0.3",
+  "_inCache": true,
+  "_location": "/t-json-viewer",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/t-json-viewer-1.0.3.tgz_1482668055678_0.7508275958243757"
   },
-  "homepage": "https://github.com/temich666/t-json-viewer#readme",
+  "_npmUser": {
+    "name": "temich666",
+    "email": "a@temich.in.ua"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "t-json-viewer@1.0.3",
+    "scope": null,
+    "escapedName": "t-json-viewer",
+    "name": "t-json-viewer",
+    "rawSpec": "1.0.3",
+    "spec": "1.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/t-json-viewer/-/t-json-viewer-1.0.3.tgz",
+  "_shasum": "9a546d97f444df9624c3de331ac89a77d2d42bdc",
+  "_shrinkwrap": null,
+  "_spec": "t-json-viewer@1.0.3",
+  "_where": "/Users/aleccrestani/git/imging-admin-web-frontend",
+  "author": {
+    "name": "Artem Koziar [temich]",
+    "email": "a@temich.in.ua"
+  },
   "bugs": {
     "url": "https://github.com/temich666/t-json-viewer/issues",
     "email": "a@temich.in.ua"
   },
   "dependencies": {
-    "@angular/core": "^2.3.0",
+    "@angular/core": "^2.3.1",
     "@types/lodash": "^4.14.44",
     "lodash": "^4.17.3",
     "rxjs": "^5.0.1"
   },
+  "description": "Angular 2 component for objects debug (Collapsible JSON in HTML like in Chrome DevTools)",
   "devDependencies": {
     "tslint": "^4.0.2",
     "typescript": "~2.0.3"
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "9a546d97f444df9624c3de331ac89a77d2d42bdc",
+    "tarball": "https://registry.npmjs.org/t-json-viewer/-/t-json-viewer-1.0.3.tgz"
+  },
+  "gitHead": "e577f039241c04c512de4552f2b9361e8ba53a70",
+  "homepage": "https://github.com/temich666/t-json-viewer#readme",
+  "keywords": [
+    "angular2",
+    "@angular",
+    "json"
+  ],
+  "license": "MIT",
+  "main": "index.ts",
+  "maintainers": [
+    {
+      "name": "temich666",
+      "email": "a@temich.in.ua"
+    }
+  ],
+  "name": "t-json-viewer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temich666/t-json-viewer.git"
+  },
+  "scripts": {
+    "lint": "tslint \"src/**/*.ts\"",
+    "ng": "ng",
+    "start": "ng serve",
+    "test": "ng test"
+  },
+  "version": "1.0.3"
 }

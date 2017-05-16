@@ -1,4 +1,4 @@
-import { Component, OnChanges, Input, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
 import * as _ from 'lodash';
 
 interface Item {
@@ -15,7 +15,7 @@ interface Item {
   styleUrls: ['./t-json-viewer.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class TJsonViewerComponent implements OnChanges {
+export class TJsonViewerComponent implements OnInit {
 
   @Input()
   json: Array<any>|Object|any;
@@ -24,7 +24,7 @@ export class TJsonViewerComponent implements OnChanges {
 
   constructor() { }
 
-  ngOnChanges() {
+  ngOnInit() {
     // Do nothing without data
     if (!_.isObject(this.json) && !_.isArray(this.json)) {
       return;
@@ -43,7 +43,7 @@ export class TJsonViewerComponent implements OnChanges {
    * @param {string|any} key
    * @param {any} value
    */
-  private createItem(key: any, value: any): Item {
+  private createItem(key, value): Item {
     let item: Item = {
       key: key || '""', // original key or empty string
       value: value, // original value

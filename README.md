@@ -10,7 +10,6 @@ Angular 2 component for objects debug. Collapsible JSON in HTML with syntax high
 ```
 npm install t-json-viewer --save
 ```
-NPM Package: https://www.npmjs.com/package/t-json-viewer
 
 ## Usage
 
